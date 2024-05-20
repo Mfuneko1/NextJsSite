@@ -1,2 +1,2 @@
-# Next-Js-Todo-List
-- Creating a To-D- List using Next Js with TypeScript
+# NextJs Site
+- Just fooling around with Next Js, we will see what comes out of it
