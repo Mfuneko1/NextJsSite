@@ -1,8 +1,17 @@
+import Image from 'next/image'
 
 export default function Profile() {
     return(
         <div className="grid grid-rows-3 grid-flow-col gap-4">
-           <div className="row-span-3">Here we will have an image</div>
+            <div className="row-span-3">
+                <Image
+                    src="/profile.png"
+                    width={500}
+                    height={500}
+                    alt="Picture of the developer"
+                    className='rounded-full'
+                />
+            </div>
 
           <div className="row-span-3">
              <div>Mfuneko Mfsi April is a Full Stack developer fluent in .Net Developer.</div>

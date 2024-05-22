@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import NavBar from '@/components/NavBar'
 import Profile from '@/components/profile'
+import Experience from '@/components/Experience'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,13 +17,18 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <main className={styles.main}>
         <div className={styles.description}> 
           <NavBar></NavBar>       
         </div>
 
-        <div className='text-3xl font-bold underline'>
+        <div className='py-8'>
          <Profile></Profile>
+        </div>
+
+        <div className='py-8'>
+         <Experience></Experience>
         </div>
 
         <div className={styles.center}>
