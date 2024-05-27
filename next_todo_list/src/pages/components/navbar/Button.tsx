@@ -1,7 +1,7 @@
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 
-export default function Button() {
+export default function NavBar() {
   return (
     <div className={styles.grid}>
       <Link href="/Connect">Connect</Link>
